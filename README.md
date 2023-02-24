@@ -1,8 +1,8 @@
 # advice-generator
 
 Projeto pessoal desenvolvido a partir de um desafio onde o objetivo era construir um simples gerador de dicas.
-
 -
+
 Tenologias usadas:
 - HTML
 - CSS
