@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --neonGreen: hsl(150, 100%, 66%);
+    --lightCyan: hsl(193, 38%, 86%);
+}
+
+body{
+    color: white;
+    text-align: center;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope';
+    font-weight: 800;
+}
+ 
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 90vh;
+}
+.card{
+    position: relative;
+    max-width: 90%;
+    width: 800px;
+    height: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px hsl(217, 19%, 24%);
+}
+.card h3, .card #adv-id {
+    color: var(--neonGreen);
+    margin-bottom: 10px;
+}
+.card button{
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    bottom: -24px;
+    width: 50px;
+    height: 50px;
+    padding-top: 4px;
+    background-color: var(--neonGreen);
+    cursor: pointer;
+}
+.card button:hover, .card button:active{
+    box-shadow: 0px 0px 15px var(--neonGreen);
+}
+.card button img{
+    width: 20px;
+    height: 20px;
+}
+.card .advices{
+    width: 90%;
+    height: 152px;
+}
+.card img{
+    width: 80%;
+}
+.card .advices #adv{
+    color: white;
+    font-size: 28px;
+}
+ 
+ @media only screen and (max-width: 375px){
+    .card .advices #adv{
+        color: white;
+        font-size: 1.5rem;
+    }
+} 
