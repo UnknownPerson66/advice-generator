@@ -6,7 +6,7 @@ Tenologias usadas:
 - HTML
 - CSS
 - JavaScript
--
+
 
 Desktop: 
 
